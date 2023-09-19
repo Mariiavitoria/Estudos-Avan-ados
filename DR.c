@@ -1,15 +1,15 @@
 #include<stdio.h>
 
    float main() {
-   float A,B,C;
+   float cotacao, valoremdolar, real;
 
-   printf("Digite A: ");
-   scanf("%f", &A);
-   printf("Digite B: ");
-   scanf("%f", &B);
+   printf("Digite cotacao: ");
+   scanf("%f", &cotacao);
+   printf("Digite valor em dolar: ");
+   scanf("%f", &valoremdolar);
 
-   C=A*B;
+   real=cotacao*valoremdolar;
 
-   printf("O valor em real e de: %f", C);
+   printf("O valor em real e de: %f", real);
 
    }
