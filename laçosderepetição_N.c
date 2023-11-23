@@ -8,7 +8,7 @@ int M, X, Y, K;
 do
 {
 
-  printf("Escreva o valor numerico: ");
+  printf("Digite o valor numerico: ");
   scanf("%i", &Y);
 
 if(Y>=0)
