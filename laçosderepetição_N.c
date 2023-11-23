@@ -1,36 +1,36 @@
 #include<stdio.h>
 int main (){
-int C, B, A, D;
+int M, X, Y, K;
 
-  C=0;
+  M=0;
   X=0;
 
 do
 {
 
   printf("Escreva o valor numerico: ");
-  scanf("%i", &A);
+  scanf("%i", &Y);
 
-if(A>=0)
+if(Y>=0)
 {
-   B=B+A;
-   D=D+1;
+   X=X+Y;
+   K=K+1;
 
 }
-while(A>=0);
-if(D>0)
+while(Y>=0);
+if(K>0)
 {
     C=B/D;
-    printf("A soma dos valores e de: %f\n", B);
-    printf("A media e de: %f\n", C);
-    printf("O numero de valores lidos e de: %f\n", D);
+    printf("A soma dos valores e de: %f\n", X);
+    printf("A media e de: %f\n", M);
+    printf("O numero de valores lidos e de: %f\n", K);
 }
 }
 printf("O somatorio e de %i", X);
-printf("O total de valores e de %i", C);
+printf("O total de valores e de %i", M);
 
 
-   X=X/C;
+   X=X/M;
 
 printf("A media e de %i", X);
 
